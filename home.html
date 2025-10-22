@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/home.css">
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .carousel-item img {
+            height: 550px;
+            object-fit: cover;
+        }
+
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        footer {
+            background: #222;
+            color: #ddd;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .navee {
+            background-color: rgb(68, 129, 182);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top  navee">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contract.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+
+<section>
+  <div class="head">
+    <h2>Boost your professional workflow and productivity</h2>
+
+    <div class="controls">
+      <button id="prev" class="nav-btn" aria-label="Prev">‹</button>
+      <button id="next" class="nav-btn" aria-label="Next">›</button>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="track" id="track">
+
+      <article class="project-card" active>
+        <img class="project-card__bg" src="https://images.unsplash.com/photo-1524856781660-e5c92f4ac62a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5ODE3MTJ8&ixlib=rb-4.1.0&q=85" alt="">
+        <div class="project-card__content">
+
+          <div>
+            <h3 class="project-card__title">Fire Damage</h3>
+            <p class="project-card__desc">Tools that work like you do.</p>
+            </br>
+            <button class="project-card__btn">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img class="project-card__bg" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/marketers.webp" alt="">
+        <div class="project-card__content">
+
+          <div>
+            <h3 class="project-card__title">Water Damage</h3>
+            <p class="project-card__desc">Create faster, explore new possibilities.</p>
+            <br>
+            <button class="project-card__btn">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img class="project-card__bg" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/filmmakers.webp" alt="">
+        <div class="project-card__content">
+          <img class="project-card__thumb" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/img-film.webp?w=480" alt="">
+          <div>
+            <h3 class="project-card__title">VFX filmmakers</h3>
+            <p class="project-card__desc">From concept to cut, faster.</p>
+            <button class="project-card__btn">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img class="project-card__bg" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/content-creators.webp" alt="">
+        <div class="project-card__content">
+          <img class="project-card__thumb" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/img-content.webp?w=480" alt="">
+          <div>
+            <h3 class="project-card__title">Content creators</h3>
+            <p class="project-card__desc">Make scroll-stopping content, easily.</p>
+            <button class="project-card__btn">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img class="project-card__bg" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/art-directors.webp" alt="">
+        <div class="project-card__content">
+          <img class="project-card__thumb" src="https://cdn-front.freepik.com/home/anon-rvmp/professionals/img-art.webp?w=480" alt="">
+          <div>
+            <h3 class="project-card__title">Art directors</h3>
+            <p class="project-card__desc">Creative control at every stage.</p>
+            <button class="project-card__btn">Details</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="dots" id="dots"></div>
+</section>
+
+
+  <!-- Mission & Vision -->
+  
+
+  <!-- Services -->
+  
+
+<!-- Credit: Form Design is inspired by Aswin Madhulal (https://dribbble.com/shots/7209761-Feedback-much-appreciated) -->
+<div class="content">
+	<header>
+		<h1>Feel free to drop us your feedback.</h1>
+		<!-- 	Credit: https://undraw.co/ -->
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1457119/feedback-form-template.svg"
+			  alt="A woman is sitting on the floor and working on a laptop (vector illustration)" />
+	</header>
+	<main mv-app="feedbackForm"
+			mv-storage="#data"
+			mv-source="#source"
+			mv-mode="read">
+		<form mv-multiple="feedback">
+			<label>
+				<h2>
+					How satisfied are you overall with the support of your Delivery Partner?
+				</h2>
+				
+				<div class="tickmarks">
+					<span mv-multiple="tickmark"
+							mv-value="0 .. 10"
+							mv-storage="none"
+							class="[if($this = score, highlight)]"
+							mv-action="set(score, $this)"></span>
+				</div>
+				
+				<input property="score"
+						 type="range" max="10"
+						 style="--score: [score * 10]%" />
+				
+				<div class="legend">
+					<span mv-action="set(score, 0)">
+						Not at all likely
+					</span>
+					<span mv-action="set(score, 10)">
+						Extremely likely
+					</span>
+				</div>
+			</label>
+			
+			<textarea property="comment"
+						 cols="30" rows="10"
+						 placeholder="Please tell us your reasons for giving this score here..."></textarea>
+
+			<h2>
+				Now please tell us the month and the year on which the following first happened
+			</h2>
+			
+			<section property="startDate">
+				<p>
+					I first started to trade (selling goods / delivering services) and receiving income
+				</p>
+				
+				<select property="month">
+					<option value="">Month</option>
+					<option mv-multiple="monthOption"
+							  mv-value="1 .. 12"
+							  mv-attribute="value"
+							  mv-mode="read">
+						[month('2019-' & digits(2, $this) & '-01', 'shortname')]
+					</option>
+				</select>
+				
+				<select property="year">
+					<option value="">Year</option>
+					<option mv-multiple="yearOption"
+							  mv-value="2010 .. year($today)"
+							  mv-attribute="value"
+							  mv-mode="read">
+						[$this & '']
+					</option>
+				</select>
+			</section>
+			
+			<div class="mv-bar">
+				<button class="mv-save"
+						  disabled="[!month or !year]"
+						  mv-action="add(feedback)">
+					Send Feedback
+				</button>
+			</div>
+		</form>
+	</main>
+</div>
+
+<footer>
+	<h3>Stored Data</h3>
+	<pre id="data"></pre>
+</footer>
+
+<!-- We need an empty source (which is different from the storage) for not to show end-users previously-stored feedback of other users. -->
+<div id="source" hidden>
+{
+	"feedback": [
+		{}
+	]
+}
+</div>
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-light py-3 bg-dark">
+    <p>© <span id="year"></span> My Portfolio | All Rights Reserved</p>
+  </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="JS/home.js"></script>
+</body>
+
+</html>
